@@ -13,13 +13,13 @@ void _div_(stack_t **stack, unsigned int line_number)
 	int quotient;
 
 	if (*stack == NULL || (*stack)->next == NULL)
-		handle_errors(ERROR_DIV);
+		error_handler(ERROR_DIV);
 
 	if ((*stack)->n == 0)
-		handle_errors(ERROR_DIV_ZERO);
+		error_handler(ERROR_DIV_ZERO);
 
 	quotient = (*stack)->next->n / (*stack)->n;
 
-	_pop(stack, line_number);
+	_pop_(stack, line_number);
 	(*stack)->n = quotient;
 }
