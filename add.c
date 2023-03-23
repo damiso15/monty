@@ -4,6 +4,7 @@
  * _add_ - a function adds the top two elements of the stack
  * @stack: the input stack
  * @line_number: the line number
+ * Return: Nothing
  */
 void _add_(stack_t **stack, unsigned int line_number)
 {
