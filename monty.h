@@ -134,4 +134,8 @@ void _pop_(stack_t **stack, unsigned int line_number);
 /* swap */
 void _swap_(stack_t **stack, unsigned int line_number);
 
+
+/* add.c */
+void _add_(stack_t **stack, unsigned int line_number);
+
 #endif

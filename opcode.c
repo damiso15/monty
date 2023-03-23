@@ -11,7 +11,8 @@ void (*opcode_match(void))(stack_t **stack, unsigned int line_number)
 	static instruction_t instruct[] = {
 		{"push", _push_}, {"pall", _pall_},
 		{"pint", _pint_}, {"pop", _pop_}, {"swap", _swap_},
-	/*	{"add", _add}, {"nop", _nop}, {"sub", _sub}, */
+		{"add", _add_},
+	/*	{"nop", _nop}, {"sub", _sub}, */
 	/*	{"div", _div}, {"mul", _mul}, {"mod", _mod}, */
 	/*	{"pchar", _pchar}, */
 		{NULL, NULL}
