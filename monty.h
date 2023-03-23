@@ -154,4 +154,8 @@ void _div_(stack_t **stack, unsigned int line_number);
 /* mul.c */
 void _mul_(stack_t **stack, unsigned int line_number);
 
+
+/* mod.c */
+void _mod_(stack_t **stack, unsigned int line_number);
+
 #endif
