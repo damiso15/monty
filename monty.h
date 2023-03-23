@@ -122,4 +122,8 @@ int line_parse(char *line);
 /* digits.c */
 int is_digit(char *num);
 
+
+/* pint.c */
+void _pint_(stack_t **stack, unsigned int line_number);
+
 #endif
