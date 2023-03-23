@@ -2,8 +2,11 @@
 
 
 /**
- * _sub_ - a function subtracts the top element of the stack from the second top element of the stack
- *
+ * _sub_ - a function subtracts the top element of the stack from the
+ * second top element of the stack
+ * @stack: the input stack
+ * @line_number: the line number
+ * Return: Nothing
  */
 void _sub_(stack_t **stack, unsigned int line_number)
 {
