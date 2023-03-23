@@ -142,4 +142,8 @@ void _add_(stack_t **stack, unsigned int line_number);
 /* nop.c */
 void _nop_(stack_t **stack, unsigned int line_number);
 
+
+/* sub.c */
+void _sub_(stack_t **stack, unsigned int line_number);
+
 #endif
