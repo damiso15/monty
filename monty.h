@@ -126,4 +126,8 @@ int is_digit(char *num);
 /* pint.c */
 void _pint_(stack_t **stack, unsigned int line_number);
 
+
+/* pop.c */
+void _pop_(stack_t **stack, unsigned int line_number);
+
 #endif
