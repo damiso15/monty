@@ -138,4 +138,8 @@ void _swap_(stack_t **stack, unsigned int line_number);
 /* add.c */
 void _add_(stack_t **stack, unsigned int line_number);
 
+
+/* nop.c */
+void _nop_(stack_t **stack, unsigned int line_number);
+
 #endif
