@@ -33,5 +33,7 @@ int main(int argc, char **argv)
 		exe(&inventory->stack, inventory->linenum);
 	}
 
+	free_all();
+
 	return (EXIT_SUCCESS);
 }

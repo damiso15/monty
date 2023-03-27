@@ -158,4 +158,13 @@ void _mul_(stack_t **stack, unsigned int line_number);
 /* mod.c */
 void _mod_(stack_t **stack, unsigned int line_number);
 
+
+/* pchar.c */
+void _pchar_(stack_t **stack, unsigned int line_number);
+
+
+/* free.c */
+void free_stack(void);
+void free_all(void);
+
 #endif

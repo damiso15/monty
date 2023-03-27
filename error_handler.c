@@ -33,5 +33,7 @@ void error_handler(int num)
 	else if (num == 4)
 		dprintf(STDERR_FILENO, "L%u: %s", ind, err[num]);
 
+	free_all()
+
 	exit(EXIT_FAILURE);
 }
