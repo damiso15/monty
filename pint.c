@@ -1,7 +1,8 @@
 #include "monty.h"
 
 /**
- * _pint_ - a function prints the value at the top of the stack, followed by a new line.
+ * _pint_ - a function prints the value at the top of the stack,
+ * followed by a new line.
  * @stack: the input stack
  * @line_number: line number
  * Return: Nothing

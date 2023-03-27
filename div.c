@@ -2,7 +2,7 @@
 
 
 /**
- * _div_ - a function divides the second top element of the stack 
+ * _div_ - a function divides the second top element of the stack
  * by the top element of the stack
  * @stack: the input stack
  * @line_number: the line number

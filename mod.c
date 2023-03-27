@@ -3,7 +3,7 @@
 /**
  * _mod_ - a function that computes the rest of the division of the
  * second top element of the stack by the top element of the stack
- * stack: the input stack
+ * @stack: the input stack
  * @line_number: the line number
  * Return: Nothing
  */
